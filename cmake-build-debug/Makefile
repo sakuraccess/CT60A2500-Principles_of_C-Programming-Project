@@ -152,29 +152,29 @@ linked_list.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Principles_of_C_Programming_Project_Work.dir\build.make CMakeFiles/Principles_of_C_Programming_Project_Work.dir/linked_list.c.s
 .PHONY : linked_list.c.s
 
-main.obj: main.c.obj
-.PHONY : main.obj
+project.obj: project.c.obj
+.PHONY : project.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Principles_of_C_Programming_Project_Work.dir\build.make CMakeFiles/Principles_of_C_Programming_Project_Work.dir/main.c.obj
-.PHONY : main.c.obj
+project.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Principles_of_C_Programming_Project_Work.dir\build.make CMakeFiles/Principles_of_C_Programming_Project_Work.dir/project.c.obj
+.PHONY : project.c.obj
 
-main.i: main.c.i
-.PHONY : main.i
+project.i: project.c.i
+.PHONY : project.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Principles_of_C_Programming_Project_Work.dir\build.make CMakeFiles/Principles_of_C_Programming_Project_Work.dir/main.c.i
-.PHONY : main.c.i
+project.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Principles_of_C_Programming_Project_Work.dir\build.make CMakeFiles/Principles_of_C_Programming_Project_Work.dir/project.c.i
+.PHONY : project.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+project.s: project.c.s
+.PHONY : project.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Principles_of_C_Programming_Project_Work.dir\build.make CMakeFiles/Principles_of_C_Programming_Project_Work.dir/main.c.s
-.PHONY : main.c.s
+project.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Principles_of_C_Programming_Project_Work.dir\build.make CMakeFiles/Principles_of_C_Programming_Project_Work.dir/project.c.s
+.PHONY : project.c.s
 
 # Help Target
 help:
@@ -188,9 +188,9 @@ help:
 	@echo ... linked_list.obj
 	@echo ... linked_list.i
 	@echo ... linked_list.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... project.obj
+	@echo ... project.i
+	@echo ... project.s
 .PHONY : help
 
 

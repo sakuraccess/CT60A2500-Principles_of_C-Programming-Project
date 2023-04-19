@@ -68,19 +68,19 @@ include CMakeFiles/Principles_of_C_Programming_Project_Work.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Principles_of_C_Programming_Project_Work.dir/flags.make
 
-CMakeFiles/Principles_of_C_Programming_Project_Work.dir/main.c.obj: CMakeFiles/Principles_of_C_Programming_Project_Work.dir/flags.make
-CMakeFiles/Principles_of_C_Programming_Project_Work.dir/main.c.obj: C:/Users/x109649/Downloads/CT60A2500-Principles_of_C-Programming-Project/main.c
-CMakeFiles/Principles_of_C_Programming_Project_Work.dir/main.c.obj: CMakeFiles/Principles_of_C_Programming_Project_Work.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\x109649\Downloads\CT60A2500-Principles_of_C-Programming-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Principles_of_C_Programming_Project_Work.dir/main.c.obj"
-	C:\Users\x109649\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Principles_of_C_Programming_Project_Work.dir/main.c.obj -MF CMakeFiles\Principles_of_C_Programming_Project_Work.dir\main.c.obj.d -o CMakeFiles\Principles_of_C_Programming_Project_Work.dir\main.c.obj -c C:\Users\x109649\Downloads\CT60A2500-Principles_of_C-Programming-Project\main.c
+CMakeFiles/Principles_of_C_Programming_Project_Work.dir/project.c.obj: CMakeFiles/Principles_of_C_Programming_Project_Work.dir/flags.make
+CMakeFiles/Principles_of_C_Programming_Project_Work.dir/project.c.obj: C:/Users/x109649/Downloads/CT60A2500-Principles_of_C-Programming-Project/project.c
+CMakeFiles/Principles_of_C_Programming_Project_Work.dir/project.c.obj: CMakeFiles/Principles_of_C_Programming_Project_Work.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\x109649\Downloads\CT60A2500-Principles_of_C-Programming-Project\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Principles_of_C_Programming_Project_Work.dir/project.c.obj"
+	C:\Users\x109649\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Principles_of_C_Programming_Project_Work.dir/project.c.obj -MF CMakeFiles\Principles_of_C_Programming_Project_Work.dir\project.c.obj.d -o CMakeFiles\Principles_of_C_Programming_Project_Work.dir\project.c.obj -c C:\Users\x109649\Downloads\CT60A2500-Principles_of_C-Programming-Project\project.c
 
-CMakeFiles/Principles_of_C_Programming_Project_Work.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Principles_of_C_Programming_Project_Work.dir/main.c.i"
-	C:\Users\x109649\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\x109649\Downloads\CT60A2500-Principles_of_C-Programming-Project\main.c > CMakeFiles\Principles_of_C_Programming_Project_Work.dir\main.c.i
+CMakeFiles/Principles_of_C_Programming_Project_Work.dir/project.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Principles_of_C_Programming_Project_Work.dir/project.c.i"
+	C:\Users\x109649\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\x109649\Downloads\CT60A2500-Principles_of_C-Programming-Project\project.c > CMakeFiles\Principles_of_C_Programming_Project_Work.dir\project.c.i
 
-CMakeFiles/Principles_of_C_Programming_Project_Work.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Principles_of_C_Programming_Project_Work.dir/main.c.s"
-	C:\Users\x109649\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\x109649\Downloads\CT60A2500-Principles_of_C-Programming-Project\main.c -o CMakeFiles\Principles_of_C_Programming_Project_Work.dir\main.c.s
+CMakeFiles/Principles_of_C_Programming_Project_Work.dir/project.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Principles_of_C_Programming_Project_Work.dir/project.c.s"
+	C:\Users\x109649\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\231.8109.222\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\x109649\Downloads\CT60A2500-Principles_of_C-Programming-Project\project.c -o CMakeFiles\Principles_of_C_Programming_Project_Work.dir\project.c.s
 
 CMakeFiles/Principles_of_C_Programming_Project_Work.dir/linked_list.c.obj: CMakeFiles/Principles_of_C_Programming_Project_Work.dir/flags.make
 CMakeFiles/Principles_of_C_Programming_Project_Work.dir/linked_list.c.obj: C:/Users/x109649/Downloads/CT60A2500-Principles_of_C-Programming-Project/linked_list.c
@@ -98,13 +98,13 @@ CMakeFiles/Principles_of_C_Programming_Project_Work.dir/linked_list.c.s: cmake_f
 
 # Object files for target Principles_of_C_Programming_Project_Work
 Principles_of_C_Programming_Project_Work_OBJECTS = \
-"CMakeFiles/Principles_of_C_Programming_Project_Work.dir/main.c.obj" \
+"CMakeFiles/Principles_of_C_Programming_Project_Work.dir/project.c.obj" \
 "CMakeFiles/Principles_of_C_Programming_Project_Work.dir/linked_list.c.obj"
 
 # External object files for target Principles_of_C_Programming_Project_Work
 Principles_of_C_Programming_Project_Work_EXTERNAL_OBJECTS =
 
-Principles_of_C_Programming_Project_Work.exe: CMakeFiles/Principles_of_C_Programming_Project_Work.dir/main.c.obj
+Principles_of_C_Programming_Project_Work.exe: CMakeFiles/Principles_of_C_Programming_Project_Work.dir/project.c.obj
 Principles_of_C_Programming_Project_Work.exe: CMakeFiles/Principles_of_C_Programming_Project_Work.dir/linked_list.c.obj
 Principles_of_C_Programming_Project_Work.exe: CMakeFiles/Principles_of_C_Programming_Project_Work.dir/build.make
 Principles_of_C_Programming_Project_Work.exe: CMakeFiles/Principles_of_C_Programming_Project_Work.dir/linkLibs.rsp

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Principles_of_C_Programming_Project_Work.dir/linked_list.c.obj"
   "CMakeFiles/Principles_of_C_Programming_Project_Work.dir/linked_list.c.obj.d"
-  "CMakeFiles/Principles_of_C_Programming_Project_Work.dir/main.c.obj"
-  "CMakeFiles/Principles_of_C_Programming_Project_Work.dir/main.c.obj.d"
+  "CMakeFiles/Principles_of_C_Programming_Project_Work.dir/project.c.obj"
+  "CMakeFiles/Principles_of_C_Programming_Project_Work.dir/project.c.obj.d"
   "Principles_of_C_Programming_Project_Work.exe"
   "Principles_of_C_Programming_Project_Work.exe.manifest"
   "Principles_of_C_Programming_Project_Work.pdb"
