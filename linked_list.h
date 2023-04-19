@@ -6,6 +6,8 @@
 #define PRINCIPLES_OF_C_PROGRAMMING_PROJECT_WORK_LINKED_LIST_H
 
 typedef struct {
+    char *data;
+    struct node *pNext;
 } Node;
 
 int isEmpty(Node *head);
@@ -31,6 +33,5 @@ void print(Node *head);
 char *toString(Node *head);
 
 Node *reverse(Node *head);
-
 
 #endif //PRINCIPLES_OF_C_PROGRAMMING_PROJECT_WORK_LINKED_LIST_H

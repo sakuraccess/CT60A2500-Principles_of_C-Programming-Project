@@ -1,7 +1,8 @@
 /* You may use this file as a model for writing a testing program for your project work */
 #include "linked_list.h"
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <string.h>
 
 int main() {
     FILE *filePointer;
@@ -63,7 +64,7 @@ int main() {
     printf("Deleting last...\n");
     pFirst = deleteLast(pFirst);
 
-    // Print the modifed list
+    // Print the modified list
     print(pFirst);
 
     // test whether some names are present
