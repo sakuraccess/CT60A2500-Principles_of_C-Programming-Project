@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/x109649/Downloads/Principles of C-Programming Project Work
+# Install script for directory: C:/Users/x109649/Downloads/CT60A2500-Principles_of_C-Programming-Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/x109649/Downloads/Principles of C-Programming Project Work/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/x109649/Downloads/CT60A2500-Principles_of_C-Programming-Project/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

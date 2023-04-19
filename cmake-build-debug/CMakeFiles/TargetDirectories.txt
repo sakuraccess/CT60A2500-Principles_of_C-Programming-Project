@@ -1,3 +1,3 @@
-C:/Users/x109649/Downloads/Principles of C-Programming Project Work/cmake-build-debug/CMakeFiles/Principles_of_C_Programming_Project_Work.dir
-C:/Users/x109649/Downloads/Principles of C-Programming Project Work/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/x109649/Downloads/Principles of C-Programming Project Work/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/x109649/Downloads/CT60A2500-Principles_of_C-Programming-Project/cmake-build-debug/CMakeFiles/Principles_of_C_Programming_Project_Work.dir
+C:/Users/x109649/Downloads/CT60A2500-Principles_of_C-Programming-Project/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/x109649/Downloads/CT60A2500-Principles_of_C-Programming-Project/cmake-build-debug/CMakeFiles/rebuild_cache.dir
