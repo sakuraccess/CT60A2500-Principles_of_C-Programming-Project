@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Principles_of_C_Programming_Project_Work",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Principles_of_C_Programming_Project_Work::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Principles_of_C_Programming_Project_Work-Debug-50b943f7a5a43673766b.json",
+					"name" : "Principles_of_C_Programming_Project_Work",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/x109649/Downloads/CT60A2500-Principles_of_C-Programming-Project/cmake-build-debug",
+		"source" : "C:/Users/x109649/Downloads/CT60A2500-Principles_of_C-Programming-Project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
