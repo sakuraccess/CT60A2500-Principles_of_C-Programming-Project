@@ -66,6 +66,8 @@ Node *tail(Node *head) {
         head = head->pNext;
     }
 
+//    printf("head : %s\n", head->data);
+
     return head;
 }
 
@@ -129,7 +131,7 @@ int find(Node *head, char *str) {
         return 0;
     }
 
-    if (head->data == str) {
+    if (strcmp(head->data, str) == 0) {
         return 1;
     }
 
@@ -137,7 +139,7 @@ int find(Node *head, char *str) {
     while (head->pNext != NULL) {
         head = head->pNext;
         i++;
-        if (head->data == str) {
+        if (strcmp(head->data, str) == 0) {
             return i;
         }
     }

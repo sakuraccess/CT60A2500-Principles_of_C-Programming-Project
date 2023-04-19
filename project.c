@@ -16,8 +16,10 @@ int main() {
 
     pFirst = addToBeginning(pFirst, "Kimi");
 
+    print(pFirst);
+
     // Reading the file and adding the elements
-    filePointer = fopen("names.txt", "r");
+    filePointer = fopen("..\\names.txt", "r");
 
     if (filePointer == NULL) {
         printf("Unable to open file.\n");
