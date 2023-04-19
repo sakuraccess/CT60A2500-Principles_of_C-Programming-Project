@@ -47,8 +47,8 @@ int main() {
     printf("Last name: %s\n", nodePtr->data);
 
     // Fetching the 10th node
-    nodePtr = get_node(pFirst, 10);
-    printf("Name in position %d: %s\n", 10, nodePtr->data);
+    nodePtr = get_node(pFirst, 2);
+    printf("Name in position %d: %s\n", 2, nodePtr->data);
 
     // Fetching element outside the list 
     nodePtr = get_node(pFirst, 31);
@@ -59,6 +59,10 @@ int main() {
     // Delete the first element
     printf("Deleting first...\n");
     pFirst = deleteFirst(pFirst);
+
+    // printing the list
+    print(pFirst);
+
     // Add a new first
     printf("Adding \"Sirkka\" to the beginning...\n");
     pFirst = addToBeginning(pFirst, "Sirkka");
@@ -76,6 +80,8 @@ int main() {
     // reverse the list and print it
     printf("Reversing the list...\n");
     pFirst = reverse(pFirst);
+//    print(pFirst);
+
     printf("%s\n", toString(pFirst));
 
     return 0;

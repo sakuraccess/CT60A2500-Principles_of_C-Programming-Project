@@ -3,11 +3,8 @@
 //
 //#include "linked_list.c"
 
-#ifndef PRINCIPLES_OF_C_PROGRAMMING_PROJECT_WORK_LINKED_LIST_H
-#define PRINCIPLES_OF_C_PROGRAMMING_PROJECT_WORK_LINKED_LIST_H
-
-typedef struct {
-    char *data;
+typedef struct node {
+    char data[10];
     struct node *pNext;
 } Node;
 
@@ -34,5 +31,3 @@ void print(Node *head);
 char *toString(Node *head);
 
 Node *reverse(Node *head);
-
-#endif //PRINCIPLES_OF_C_PROGRAMMING_PROJECT_WORK_LINKED_LIST_H

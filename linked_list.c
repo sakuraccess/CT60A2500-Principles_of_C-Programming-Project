@@ -52,7 +52,11 @@ Node *addToBeginning(Node *head, char str[]) {
 }
 
 int size(Node *head) {
-    int n = 0;
+    if (head == NULL) {
+        return 0;
+    }
+
+    int n = 1;
     while (head->pNext != NULL) {
         n++;
         head = head->pNext;
@@ -62,6 +66,10 @@ int size(Node *head) {
 }
 
 Node *tail(Node *head) {
+    if (isEmpty(head)) {
+        return NULL;
+    }
+
     while (head->pNext != NULL) {
         head = head->pNext;
     }
@@ -80,7 +88,7 @@ Node *get_node(Node *head, int pos) {
 
     int i = 1;
     while (head->pNext != NULL) {
-        if (i == pos) {
+        if (pos == i++) {
             return head;
         }
         head = head->pNext;
@@ -99,7 +107,7 @@ Node *deleteFirst(Node *head) {
         return NULL;
     }
 
-    Node *pNewFirst = head;
+    Node *pNewFirst = head->pNext;
     free(head);
 
     return pNewFirst;
@@ -169,26 +177,26 @@ char *toString(Node *head) {
         return "List is empty.\n";
     }
 
-    char *ans = strcat("(", head->data);
-    ans = strcat(ans, ")");
+    char *ans = (char *) calloc(1, 5000 * sizeof(char));
+    strcat(ans, "(");
+    strcat(ans, head->data);
+    strcat(ans, ")");
+
+//    printf("%s\n", ans);
 
     while (head->pNext != NULL) {
         head = head->pNext;
-        ans = strcat(ans, " -> (");
-        ans = strcat(ans, head->data);
-        ans = strcat(ans, ")");
+        strcat(ans, " -> (");
+        strcat(ans, head->data);
+        strcat(ans, ")");
     }
 
     return ans;
 }
 
 Node *reverse(Node *head) {
-    if (isEmpty(head)) {
-        return NULL;
-    }
-
-    if (head->pNext == NULL) {
-        return NULL;
+    if (isEmpty(head) || head->pNext == NULL) {
+        return head;
     }
 
     Node *pPrev, *pNext = head->pNext;
